@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Editor, createEditorState} from 'medium-draft';
-import RecipeBlock from './queries.js';
+import RecipeBlock from './queries';
+import NewRecipeEntry from './newRecipeEntry';
 
 function App() {
     return (
-        <RecipeBlock />
+        <ul>
+            <NewRecipeEntry />
+            <RecipeBlock />
+
+        </ul>
     );
 }
 

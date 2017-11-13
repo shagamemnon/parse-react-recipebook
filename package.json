@@ -1,9 +1,10 @@
 {
-  "name": "my-app",
+  "name": "Recipebook",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "draft-js": "^0.10.1",
+    "opengraph-io": "^1.1.2",
     "parse": "1.6.14",
     "parse-react": "^0.5.2",
     "react": "^15.6.1",
